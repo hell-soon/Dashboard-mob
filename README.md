@@ -4,7 +4,7 @@ Dashboard mobile version
 
 ## Install the dependencies
 ```bash
-yarn
+bun
 # or
 npm install
 ```
@@ -17,7 +17,7 @@ quasar dev
 
 ### Lint the files
 ```bash
-yarn lint
+bun lint
 # or
 npm run lint
 ```
@@ -27,6 +27,3 @@ npm run lint
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
