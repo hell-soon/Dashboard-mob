@@ -1,0 +1,17 @@
+{
+  "extends": "./.quasar/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "vite/client",
+      "node",
+      "quasar"
+    ]
+  },
+  "include": [
+    "quasar.config.ts",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue",
+    "src/auto-imports.d.ts"
+  ]
+}

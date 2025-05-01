@@ -1,0 +1,47 @@
+{
+  "name": "dashboard-mob",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Dashboard mobile version",
+  "productName": "Dasboard",
+  "author": "hell-soon <pmaks2365@gmail.com>",
+  "engines": {
+    "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "postinstall": "quasar prepare"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "axios": "^1.2.1",
+    "pinia": "^3.0.1",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.12.0",
+    "@eslint/js": "^9.14.0",
+    "@quasar/app-vite": "^2.1.0",
+    "@types/node": "^20.5.9",
+    "@vue/eslint-config-typescript": "^14.4.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^9.25.1",
+    "eslint-plugin-format": "^1.0.1",
+    "eslint-plugin-quasar": "^1.1.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "globals": "^15.12.0",
+    "typescript": "~5.5.3",
+    "unplugin-auto-import": "^19.1.2",
+    "vite-plugin-checker": "^0.9.0",
+    "vue-tsc": "^2.0.29"
+  }
+}
