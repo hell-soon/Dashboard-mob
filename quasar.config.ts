@@ -76,13 +76,18 @@ export default defineConfig((/* ctx */) => {
           },
         }, { server: false }],
 
-        ['AutoImport', {
-          imports: ['vue', 'vue-router', 'pinia', {
-            quasar: [
-              'useQuasar',
-              'useMeta',
-            ],
-          }],
+        [AutoImport, {
+          imports: [
+            'vue',
+            'vue-router',
+            'pinia',
+            {
+              quasar: [
+                'useQuasar',
+                'useMeta',
+              ],
+            },
+          ],
           dts: 'src/auto-imports.d.ts',
           eslintrc: {
             enabled: true,
@@ -90,7 +95,7 @@ export default defineConfig((/* ctx */) => {
             globalsPropValue: true,
           },
           vueTemplate: true,
-        }],
+        }] as any,
       ],
     },
 
