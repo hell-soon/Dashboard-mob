@@ -1,6 +1,6 @@
-# AnimeWatch
+# NekoPlay
 
-"AnimeWatch (idk =) )"
+NekoPlay
 
 ## Install the dependencies
 ```bash
