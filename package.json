@@ -1,10 +1,10 @@
 {
-  "name": "dashboard-mob",
+  "name": "mobile-app",
   "type": "module",
   "version": "0.0.1",
   "private": true,
-  "description": "Dashboard mobile version",
-  "productName": "Dasboard",
+  "description": "Mobiel app version -- anime",
+  "productName": "AnimeWatch (idk =) )",
   "author": "hell-soon <pmaks2365@gmail.com>",
   "engines": {
     "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",

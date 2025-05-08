@@ -1,6 +1,6 @@
-# Dasboard (dashboard-mob)
+# AnimeWatch
 
-Dashboard mobile version
+"AnimeWatch (idk =) )"
 
 ## Install the dependencies
 ```bash
